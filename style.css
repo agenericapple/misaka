@@ -1,0 +1,29 @@
+body {
+  background-color: #111; 
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  line-height: 5px;
+}
+
+.text {
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 125px
+}
+
+.image {
+  max-width: 175px; 
+  height: auto;
+  border-radius: 25%;
+}
